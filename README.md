@@ -1,6 +1,14 @@
 # Capstone: Bus Shelter Detection
+### Vision-guided Navigation Assistance for the Visually Impaired
+#### Problem Description:
 
-> supporting models: [`YOLOv8`](https://github.com/ultralytics/ultralytics), [`YOLOv5`](https://github.com/ultralytics/yolov5)
+Our goal is to build an app that can guide a visually impaired user toward a Montreal bus shelter using image recognition and navigation assistance. The application aims to address the problems faced by the visually impaired community surrounding their mobility in modern urban environments. We seek to tackle bus shelter identification in Montreal, in addition to providing accurate navigational guidance, as there exists no current solution that can efficiently and reliably identify these crucial landmarks.
+
+
+> supporting ML models: [`YOLOv8`](https://github.com/ultralytics/ultralytics), [`YOLOv5`](https://github.com/ultralytics/yolov5)
+
+
+
 
 ![platform-ios](https://img.shields.io/badge/platform-ios-violet.svg)
 ![](https://img.shields.io/badge/CoreML-8A2BE2)
@@ -9,6 +17,10 @@
 
 
 Full demo on YouTube: https://youtube.com/shorts/tjjbdm7UCZ8
+
+## Application Architecture:
+<img width="468" alt="Screenshot 2024-04-09 at 10 36 38 AM" src="https://github.com/Shared-Reality-Lab/BusShelterDetect/assets/68878155/5df70a5d-679a-4553-ad5f-0d272495080a">
+
 
 ## Requirements
 
