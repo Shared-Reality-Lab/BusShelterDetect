@@ -2,8 +2,10 @@
 
 > supporting models: [`YOLOv8`](https://github.com/ultralytics/ultralytics), [`YOLOv5`](https://github.com/ultralytics/yolov5)
 
-![platform-ios](https://img.shields.io/badge/platform-ios-lightgrey.svg)
+![platform-ios](https://img.shields.io/badge/platform-ios-violet.svg)
+![](https://img.shields.io/badge/CoreML-8A2BE2)
 
+![90bda6d59f4d48358378c4ef8db0174e](https://github.com/Shared-Reality-Lab/BusShelterDetect/assets/68878155/a185c55f-fca1-469d-ac86-7cc36b71c367)
 
 
 Full demo on YouTube: https://youtube.com/shorts/tjjbdm7UCZ8
@@ -23,15 +25,17 @@ git clone https://github.com/tucan9389/ObjectDetection-CoreML
 
 ### 2. Prepare Core ML model
 
-- You can download COCO models or another model from [here](#model-size-minimum-ios-version-download-link)
+- You can download a pretrained Yolo model from the official wiki or alternatively you can train your own: [YoloV8 Ultralytics](https://github.com/ultralytics/ultralytics)
 
-> Or if you want to make and use model with custom dataset,
-> 1. follow [roboflow tutorial from scratch](https://blog.roboflow.com/how-to-train-yolov5-on-a-custom-dataset/) or [yolov5 repo's tutorial](https://github.com/ultralytics/yolov5/issues/12)
-> 2. and convert the `.pt` model to `.mlmodel` model with [our issue](https://github.com/tucan9389/ObjectDetection-CoreML/issues/6#issuecomment-1235192089).
+  #### Convert Yolo model (.pt) to coreml format:
+
+```shell
+yolo export model=yolov8n.pt format=coreml nms
+```
 
 ### 3. Add the model to the project
 
-By default, the project uses the `yolov8s` model. If you want to use another model, you can replace the model file in the project. Go to mlmodel folder and paste model.
+By default, the project uses a bus shelter detecting `yolov8s` model. If you want to use another model, you can replace the model file in the project. Please navigate to to the "mlmodel" folder and paste your model.
 
 ### 4. Set model name properly in `ViewController.swift`
 
@@ -39,23 +43,9 @@ By default, the project uses the `yolov8s` model. If you want to use another mod
 
 ### 5. Build and Run
 
-## How To Run with your own model
-
-### 1. Convert your model to Core ML
-
-> At this moment(23.04.08), there is error when converting yolov8 models to Core ML. Once https://github.com/ultralytics/ultralytics/pull/1791 is merged, you can use the following steps. (Or you can use [this PR](https://github.com/ultralytics/ultralytics/pull/1898) alternatively.)
-
-#### Pre-requirements
-
-```shell
-pip install ultralytics
-pip install coremltools
-```
-
-#### Option 1) With shell
-
-```shell
-yolo export model=yolov8n.pt format=coreml nms
-```
 
 
+## How To extract frames(images) from video
+Please use the following code to extract frames from any captured videos. These frames can be used to train your Yolo based model.
+
+https://drive.google.com/file/d/1VLfaBPzCcC_ms6TR9MjSvHZM_m6GVuOw/view?usp=sharing
