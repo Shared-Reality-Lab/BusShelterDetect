@@ -1,0 +1,16 @@
+{
+  "MLModelVersionStringKey" : "8.1.9",
+  "MLModelDescriptionKey" : "Ultralytics light model trained on \/content\/light_bus_shelter-1\/data.yaml",
+  "MLModelCreatorDefinedKey" : {
+    "stride" : "32",
+    "Confidence threshold" : "0",
+    "IoU threshold" : "0.45",
+    "task" : "detect",
+    "imgsz" : "[640, 640]",
+    "date" : "2024-02-06T17:52:49.070145",
+    "batch" : "1",
+    "names" : "{0: '0'}"
+  },
+  "MLModelAuthorKey" : "Ultralytics",
+  "MLModelLicenseKey" : "AGPL-3.0 https:\/\/ultralytics.com\/license"
+}
