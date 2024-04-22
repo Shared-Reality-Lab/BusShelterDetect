@@ -29,7 +29,7 @@ https://app.roboflow.com/capstone-so4x3/light_bus_shelter/browse?queryText=&page
 
 Process:
 1) Collected videos of bus shelters
-2) Extracted frames from the videos (using the splitvideo.ipynb)
+2) Extracted frames from the videos (using the splitvideo.ipynb file from the ExtractFrames folder)
 3) Set bounding boxes for bus shelters in frame (using website https://www.makesense.ai/)
  
 
