@@ -21,6 +21,17 @@ Full demo on YouTube: https://youtube.com/shorts/tjjbdm7UCZ8
 ## Application Architecture:
 <img width="468" alt="Screenshot 2024-04-09 at 10 36 38 AM" src="https://github.com/Shared-Reality-Lab/BusShelterDetect/assets/68878155/5df70a5d-679a-4553-ad5f-0d272495080a">
 
+## Dataset:
+
+Our custom dataset of 5,264 images features various bus shelter types from around Montreal, and can be found here:
+
+https://app.roboflow.com/capstone-so4x3/light_bus_shelter/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true
+
+Process:
+1) Collected videos of bus shelters
+2) Extracted frames from the videos (using the splitvideo.ipynb)
+3) Set bounding boxes for bus shelters in frame (using website https://www.makesense.ai/)
+ 
 
 ## Requirements
 
@@ -56,8 +67,3 @@ By default, the project uses a bus shelter detecting `yolov8s` model. If you wan
 ### 5. Build and Run
 
 
-
-## How To extract frames(images) from video
-Please use the following code to extract frames from any captured videos. These frames can be used to train your Yolo based model.
-
-https://drive.google.com/file/d/1VLfaBPzCcC_ms6TR9MjSvHZM_m6GVuOw/view?usp=sharing
