@@ -33,6 +33,13 @@ Process:
 3) Set bounding boxes for bus shelters in frame (using website https://www.makesense.ai/)
  
 
+## Training YOLO model:
+
+To train a new YOLO model (yolov8n), please use the following Google Collab - you can either use our dataset (from RoboFlow) or your own:
+
+[https://app.roboflow.com/capstone-so4x3/light_bus_shelter/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true](https://colab.research.google.com/drive/1-YFiT9VqP0drAyPkQLymBVplKJu0eNg4?usp=sharing)
+
+
 ## Requirements
 
 - Xcode 10.3+
