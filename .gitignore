@@ -1,4 +1,9 @@
-# OSX
+# OSX# Ignore node_modules
+node_modules/
+
+# Ignore yolov9 model
+model/yolov9e.mlpackage/
+
 #
 .DS_Store
 
