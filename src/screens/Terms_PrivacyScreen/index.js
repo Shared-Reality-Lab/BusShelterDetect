@@ -1,0 +1,1 @@
+export {default} from './Terms_PrivacyScreen.js';

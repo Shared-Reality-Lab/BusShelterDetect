@@ -1,1 +1,1 @@
-export {default} from './busShelterDetection.js';
+export {default} from './BusShelterDetection.js';

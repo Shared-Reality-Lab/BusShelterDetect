@@ -1,12 +1,12 @@
 import React from 'react';
 import { SafeAreaView, StatusBar, StyleSheet, Text, View } from 'react-native';
 
-const doorwayDetection = () => {
+const DoorwayDetection = () => {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="dark-content" />
       <View style={styles.centered}>
-        <Text style={styles.welcomeText}>Welcome to doorwayDetection!</Text>
+        <Text style={styles.welcomeText}>Welcome to DoorwayDetection!</Text>
       </View>
     </SafeAreaView>
   );
@@ -28,4 +28,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default doorwayDetection;
+export default DoorwayDetection;

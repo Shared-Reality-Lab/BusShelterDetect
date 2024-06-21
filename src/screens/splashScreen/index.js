@@ -1,1 +1,1 @@
-export {default} from  './splashScreen.js';
+export {default} from  './SplashScreen.js';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { SafeAreaView, StatusBar, StyleSheet, Text, View } from 'react-native';
 
-const mainScreen = () => {
+const MainScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="dark-content" />
@@ -28,4 +28,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default mainScreen;
+export default MainScreen;

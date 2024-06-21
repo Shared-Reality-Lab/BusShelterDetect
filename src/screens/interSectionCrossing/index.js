@@ -1,1 +1,1 @@
-export {default} from './interSectionCrossing.js';
+export {default} from './InterSectionCrossing.js';

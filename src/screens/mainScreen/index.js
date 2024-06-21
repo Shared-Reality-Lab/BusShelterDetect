@@ -1,1 +1,1 @@
-export {default} from './mainScreen.js';
+export {default} from './MainScreen.js';

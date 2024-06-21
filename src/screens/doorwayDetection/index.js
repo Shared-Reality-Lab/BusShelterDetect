@@ -1,1 +1,1 @@
-export {default} from './doorwayDetection.js';
+export {default} from './DoorwayDetection.js';
