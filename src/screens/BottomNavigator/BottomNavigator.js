@@ -4,6 +4,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import BusShelterDetection from '../BusShelterDetection/BusShelterDetection';
 import DoorwayDetection from '../DoorwayDetection/DoorwayDetection';
 import InterSectionCrossing from '../InterSectionCrossing/InterSectionCrossing';
+import CashCounter from "../CashCounter/CashCounter";
 import MainScreen from '../MainScreen/MainScreen';
 import { View, Text, StyleSheet } from 'react-native';
 
@@ -24,6 +25,8 @@ const BottomNavigator = () => {
             iconName = focused ? 'enter' : 'enter-outline';
           } else if (route.name === 'InterSectionCrossing') {
             iconName = focused ? 'navigate' : 'navigate-outline';
+          } else if (route.name == 'CashCounter') {
+            iconName = focused ? 'navigate' : 'cash-outline';
           }
           return <Icon name={iconName} size={size} color={color} />;
         },
@@ -44,6 +47,7 @@ const BottomNavigator = () => {
       <Bottom.Screen name="BusShelterDetection" component={BusShelterDetection} options={{ headerShown: false }} />
       <Bottom.Screen name="DoorwayDetection" component={DoorwayDetection} options={{ headerShown: false }} />
       <Bottom.Screen name="InterSectionCrossing" component={InterSectionCrossing} options={{ headerShown: false }} />
+      <Bottom.Screen name="CashCounter" component={CashCounter} options={{headerShown:false}}/>
     </Bottom.Navigator>
   );
 };

@@ -2,7 +2,7 @@
 node_modules/
 
 # Ignore yolov9 model
-model/yolov9e.mlpackage/
+model/yolov9e
 
 #
 .DS_Store
