@@ -16,6 +16,7 @@ import ParentScreen from '../screens/ParentScreen';
 import ParentChildRelation from '../screens/ParentChildRelation';
 import Terms_PrivacyScreen from '../screens/Terms_PrivacyScreen';
 import CashCounter from '../screens/CashCounter';
+import CameraScreen from '../screens/CameraScreen';
 const Stack = createNativeStackNavigator();
 const navigation = () => {
     return (
@@ -36,6 +37,7 @@ const navigation = () => {
         <Stack.Screen name="ParentScreen" component={ParentScreen}/>
         <Stack.Screen name="ParentChildRelation" component={ParentChildRelation}/>
         <Stack.Screen name="CashCounter" component={CashCounter}/>
+        <Stack.Screen name="CameraScreen" component={CameraScreen}/>
         </Stack.Navigator>
     </NavigationContainer>
 
