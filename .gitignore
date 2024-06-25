@@ -1,8 +1,16 @@
+yolov5s.pt
+
+yolov5x.pt
+
+yolovenv
+
+yoloenv/lib/python3.11/site-packages/torch/lib/libtorch_cpu.dylib
+
 # OSX# Ignore node_modules
 node_modules/
 
 # Ignore yolov9 model
-model/yolov9e
+model
 
 #
 .DS_Store

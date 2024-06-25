@@ -69,12 +69,13 @@
   <string>Octicons.ttf</string>
   <string>Zocial.ttf</string>
   <string>Fontisto.ttf</string>
+
   <key>NSCameraUsageDescription</key>
-<string>$(PRODUCT_NAME) needs access to your Camera.</string>
+<string>Sight needs access to the camera</string>
 
 <!-- optionally, if you want to record audio: -->
 <key>NSMicrophoneUsageDescription</key>
-<string>$(PRODUCT_NAME) needs access to your Microphone.</string>
+<string>Sight needs access to your Microphone.</string>
 </array>
 </dict>
 </plist>
