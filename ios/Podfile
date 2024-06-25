@@ -23,6 +23,13 @@ target 'Sight' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+# # Add permission pods here
+# permissions_path = '../node_modules/react-native-permissions/ios/Permissions'
+
+# pod 'Permission-Camera', :path => "#{permissions_path}/Camera"
+# pod 'Permission-PhotoLibrary', :path => "#{permissions_path}/PhotoLibrary"
+
+
   target 'SightTests' do
     inherit! :complete
     # Pods for testing

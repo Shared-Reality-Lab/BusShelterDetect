@@ -70,8 +70,10 @@
   <string>Zocial.ttf</string>
   <string>Fontisto.ttf</string>
 
-  <key>NSCameraUsageDescription</key>
-<string>Sight needs access to the camera</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Sight needs access to the camera</string>	
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need access to your photo library</string>
 
 <!-- optionally, if you want to record audio: -->
 <key>NSMicrophoneUsageDescription</key>

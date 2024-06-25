@@ -82,6 +82,13 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    sourceSets {
+        main {
+            assets.srcDirs = ['src/main/assets', 'src/main/assets/']
+            java.srcDirs = ['src/main/java']
+            res.srcDirs = ['src/main/res']
+        }
+    }
     signingConfigs {
         debug {
             storeFile file('debug.keystore')

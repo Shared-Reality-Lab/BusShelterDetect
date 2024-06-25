@@ -24,7 +24,7 @@ const CameraScreen = () => {
         if (cameraRef.current && device) {
             try {
                 const photo = await cameraRef.current.takePhoto();
-                sendToServer(photo.path); // Adjust according to your method's needs
+                sendToServer(photo.path); 
             } catch (error) {
                 console.error('Failed to capture photo:', error);
             }
@@ -34,13 +34,13 @@ const CameraScreen = () => {
     const sendToServer = async (uri) => {
         const data = new FormData();
         data.append('file', {
-            uri: `file://${uri}`, // Ensure uri is correctly formatted
-            type: 'image/jpeg',   // Confirm the content type is correct
+            uri: `file://${uri}`, 
+            type: 'image/jpeg',   
             name: 'photo.jpg'
         });
     
         try {
-            const response = await fetch('http://192.168.2.101:5001/detect', {
+            const response = await fetch('http://10.122.51.178:5001/detect', {
                 method: 'POST',
                 body: data,
             });
