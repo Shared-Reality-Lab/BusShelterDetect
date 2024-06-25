@@ -95,3 +95,4 @@ model/yolov9e.mlpackage/
 model/yolov9e.mlpackage/
 yoloenv/lib/python3.11/site-packages/torch/lib/libtorch_cpu.dylib
 yoloenv/lib/python3.11/site-packages/torch/lib/libtorch_cpu.dylib
+yoloenv/lib/python3.11/site-packages/torch/lib/libtorch_cpu.dylib
