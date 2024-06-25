@@ -3,6 +3,9 @@ yolov5s.pt
 yolov5x.pt
 
 yolovenv
+# Add this line to your .gitignore file
+yoloenv/lib/python3.11/site-packages/torch/lib/libtorch_cpu.dylib
+
 
 yoloenv/lib/python3.11/site-packages/torch/lib/libtorch_cpu.dylib
 
